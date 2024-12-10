@@ -13,8 +13,8 @@ class Project2:
         st.title('Video')
 
         source_option = st.selectbox(
-            "Pick chto nibud",
-            ("Mobile Cumera", "YouTube", "loc drive", "Web_camera", "RTSP")
+            "Pick me",
+            ("Mobile Camera", "YouTube", "loc drive", "Web_camera", "RTSP")
         )
 
         video_url = None
