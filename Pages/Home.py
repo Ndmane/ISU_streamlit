@@ -2,10 +2,6 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-
-def load_lottieurl(param):
-    pass
-
 lottie_coding = load_lottieurl("https://lottie.host/embed/67dfcec7-1d70-4e81-9542-c70a2552ba26/SRzPxEaLkN.lottie")
 
 class Home:
