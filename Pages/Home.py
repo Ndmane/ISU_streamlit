@@ -39,8 +39,3 @@ class Home:
                 )
 
                 st.write("[My steam profile >](https://steamcommunity.com/id/nochnoieblan/)")
-
-            lottie_coding = load_lottieurl("https://lottie.host/embed/67dfcec7-1d70-4e81-9542-c70a2552ba26/SRzPxEaLkN.lottie")
-
-            with right_column:
-                st_lottie(lottie_coding, height=300, key = "gamer")
