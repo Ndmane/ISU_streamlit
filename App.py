@@ -12,30 +12,25 @@ pages = ['Home', 'Project1', 'Project2', 'Project3']
 
 styles = {
     "nav": {
-        "background-color": "lightgray",
-        "display": "flex",
-        "justify-content": "center"
+        "background-color": "rgb(123, 209, 146)",
     },
-    "img": {
-        "position": "absolute",
-        "left": "200px",
-        "top": "1px",
-        "width": "300px",
-        "height": "45px",
+    "div": {
+        "max-width": "32rem",
     },
     "span": {
-        "display": "inline-block",
-        "color": "black",
-        "padding": "0.2rem 0.725rem",
-        "font-size": "14px"
+        "border-radius": "0.5rem",
+        "color": "rgb(49, 51, 63)",
+        "margin": "0 0.125rem",
+        "padding": "0.4375rem 0.625rem",
     },
     "active": {
-        "background-color": "mediumpurple",
-        "color": "black",
-        "font-weight": "normal",
-        "padding": "14px"
+        "background-color": "rgba(105, 114, 255, 0.25)",
+    },
+    "hover": {
+        "background-color": "rgba(255, 255, 255, 0.35)",
     }
 }
+
 page = st_navbar(pages, styles=styles)
 
 if page == 'Home':
